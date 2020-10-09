@@ -64,16 +64,9 @@ function draw() {
     }
 
     text(
-      "Press WASD to move.",
+      "Press WASD to move.\nFollow the hands.",
       adjustedX + 100,
       adjustedY + 200,
-      width - 100,
-      height - 100
-    );
-    text(
-      "Follow the peace signs.",
-      adjustedX + 100,
-      adjustedY + 300,
       width - 100,
       height - 100
     );
