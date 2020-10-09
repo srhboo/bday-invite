@@ -62,7 +62,8 @@ function draw() {
     if (keyIsDown(83)) {
       z += 5;
     }
-
+    push();
+    textLeading(140);
     text(
       "Press WASD to move.\nFollow the hands.",
       adjustedX + 100,
@@ -70,6 +71,7 @@ function draw() {
       width - 100,
       height - 100
     );
+    pop();
     camera.setPosition(x, 0, z);
 
     push();
