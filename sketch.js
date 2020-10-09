@@ -6,7 +6,7 @@ let face;
 let view = "msg";
 let message;
 let camera;
-let z = 700,
+let z = 1300,
   x = 0;
 let orbs = [];
 let colours = ["blue"];
@@ -66,14 +66,14 @@ function draw() {
     text(
       "Press WASD to move.",
       adjustedX + 100,
-      adjustedY + 100,
+      adjustedY + 200,
       width - 100,
       height - 100
     );
     text(
       "Follow the peace signs.",
       adjustedX + 100,
-      adjustedY + 200,
+      adjustedY + 300,
       width - 100,
       height - 100
     );

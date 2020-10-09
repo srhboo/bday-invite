@@ -24,8 +24,15 @@ canvas {
   left: 0px;
   top: 0px;
 }
+
+@media screen and (min-width: 900px) {
+  .wrapper {
+    padding: 4rem 4rem 10rem 4rem;
+  }
+}
+
 .wrapper {
-  padding: 4rem 4rem 10rem 4rem;
+  padding: 2rem 2rem 5rem 2rem;
 }
 ul {
   list-style: none;
