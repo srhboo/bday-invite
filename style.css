@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+canvas {
+  display: block;
+}
+
+@font-face {
+  font-family: VT323;
+  src: url(assets/VT323.ttf);
+}
+
+.msg {
+  position: absolute;
+  color: white;
+  font-family: VT323;
+  font-size: 2rem;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+.wrapper {
+  padding: 4rem 4rem 10rem 4rem;
+}
+ul {
+  list-style: none;
+  margin-top: 0;
+  padding-left: 0;
+  /*   list-style-image: url('assets/peace.png'); */
+}
+li:before {
+  content: "\2665";
+  color: #6acf51;
+}
+.chunk {
+  margin-bottom: 2rem;
+}
+.prompt {
+  color: #edf584;
+}
+#press {
+  font-family: VT323;
+  font-size: 2rem;
+  cursor: pointer;
+}
