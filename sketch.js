@@ -63,9 +63,9 @@ function draw() {
       z += 5;
     }
     push();
-    textLeading(140);
+    textLeading(40);
     text(
-      "Press WASD to move.\nFollow the hands.",
+      "Press WASD to move.\n\n\nFollow the hands.",
       adjustedX + 100,
       adjustedY + 200,
       width - 100,
