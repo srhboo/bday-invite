@@ -65,7 +65,7 @@ function draw() {
     push();
     textLeading(40);
     text(
-      "Press WASD to move.\n\n\nFollow the hands.",
+      "Press WASD to move.\n\n\nFollow the hands, they will lead you to a surprise!",
       adjustedX + 100,
       adjustedY + 200,
       width - 100,
@@ -95,15 +95,15 @@ function draw() {
     push();
     translate(-400, 0, -1000);
     image(peace, 0, 0);
-    translate(500, 0, -4000);
+    translate(500, 0, -2000);
     image(peace, 0, 0);
-    translate(-1000, 0, -5000);
+    translate(-1000, 0, -3000);
     image(peace, 0, 0);
-    translate(1000, 0, -6000);
+    translate(1000, 0, -2000);
     image(peace, 0, 0);
-    translate(1000, 0, -6000);
+    translate(1000, 0, -2000);
     image(peace, 0, 0);
-    translate(1000, 0, -6000);
+    translate(1000, 0, -4000);
     image(face, 0, 0);
     textSize(100);
     text("you made it! love ya xoxo", -10, 800);
