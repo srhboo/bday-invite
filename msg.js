@@ -32,7 +32,7 @@ year of the beast
 
 <section class="chunk">
 <div class="prompt">// WHERE //</div>
-I will post a link to the video chat --> here <-- at 3:00 pm EST on saturday
+I will post a link to the video chat --> <a href="https://us02web.zoom.us/j/87602482011?pwd=MjVmUjY0WGYvTVBOQTRaT0Z2OWs0dz09">CLICK HERE</a> <-- at 3:00 pm EST on saturday
 </section>
 
 <section class="chunk">
